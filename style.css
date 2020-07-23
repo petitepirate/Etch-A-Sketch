@@ -70,10 +70,12 @@ input[type="button"] {
 	background: var(--pink);
 	padding: 1rem;
 	border: 0;
-	border: 2px solid transparent;
+	border: 1px solid black;
+	border-radius: 5%;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 2rem;
+	text-shadow: 2px 2px 2px black;
 }
 
 :focus {
